@@ -14,6 +14,9 @@
 		D624DA9F2744062E00C08152 /* sim222walid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D624DA9D2744062E00C08152 /* sim222walid.xcdatamodeld */; };
 		D624DAA12744062F00C08152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D624DAA02744062F00C08152 /* Assets.xcassets */; };
 		D624DAA42744062F00C08152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D624DAA22744062F00C08152 /* LaunchScreen.storyboard */; };
+		D624DAAC27440A5700C08152 /* AcceuilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624DAAB27440A5700C08152 /* AcceuilTableViewController.swift */; };
+		D624DAAE27440E0B00C08152 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624DAAD27440E0B00C08152 /* DetailViewController.swift */; };
+		D624DAB02744187000C08152 /* TopPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624DAAF2744187000C08152 /* TopPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		D624DAA02744062F00C08152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D624DAA32744062F00C08152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D624DAA52744062F00C08152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D624DAAB27440A5700C08152 /* AcceuilTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilTableViewController.swift; sourceTree = "<group>"; };
+		D624DAAD27440E0B00C08152 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D624DAAF2744187000C08152 /* TopPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				D624DAA22744062F00C08152 /* LaunchScreen.storyboard */,
 				D624DAA52744062F00C08152 /* Info.plist */,
 				D624DA9D2744062E00C08152 /* sim222walid.xcdatamodeld */,
+				D624DAAB27440A5700C08152 /* AcceuilTableViewController.swift */,
+				D624DAAD27440E0B00C08152 /* DetailViewController.swift */,
+				D624DAAF2744187000C08152 /* TopPlayerViewController.swift */,
 			);
 			path = sim222walid;
 			sourceTree = "<group>";
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D624DAAC27440A5700C08152 /* AcceuilTableViewController.swift in Sources */,
 				D624DA9F2744062E00C08152 /* sim222walid.xcdatamodeld in Sources */,
 				D624DA992744062E00C08152 /* ViewController.swift in Sources */,
+				D624DAAE27440E0B00C08152 /* DetailViewController.swift in Sources */,
 				D624DA952744062E00C08152 /* AppDelegate.swift in Sources */,
+				D624DAB02744187000C08152 /* TopPlayerViewController.swift in Sources */,
 				D624DA972744062E00C08152 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
